@@ -5,7 +5,8 @@ There are three files in the Git Repo.
 
 # CONTENTS OF THE REPO
 
-One is for Data Pipeline Explanation which has my solution 
+One is for Data Pipeline Explanation which has my solution. where I have explained what all improvements can be done in long run to make pipeline scalable.
+PLEASE GO THROUGH IT CAREFULLY and let me know if any questions on the explaining part
 
 Second is **PythonPipeline.py** its a Python code for the Solution I have provided for the Problem I was given. 
 The code has comments which explains what it does.
@@ -27,6 +28,12 @@ Install **MONGO DB** Latest Stable Version and Download **MONGO DB COMPASS** for
 COnfigure Mongo DB on your Local Setup and RUN the code.
 
 This code runs fine and end to end.
+
+# CONFIDENCE LEVEL
+
+For confidence level I have not included in the main code but uploaded a file in Github where I understand what confidence level means. As I am not a machine learning Engineer, I tried my best to make my self understand and done some simple function implementation.
+
+PS: This code is not  merged with the main code as it was an optional ask.
 
 # HAPPY CODE TESTING
 
