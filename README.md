@@ -3,6 +3,8 @@
 
 There are three files in the Git Repo.
 
+# CONTENTS OF THE REPO
+
 One is for Data Pipeline Explanation which has my solution 
 
 Second is **PythonPipeline.py** its a Python code for the Solution I have provided for the Problem I was given. 
