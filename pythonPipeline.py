@@ -113,19 +113,8 @@ print("Cleaned and Transformed Data:\n", df.head())
 
 
 #df.to_json("cleaned_product_data.json", orient="records", lines=False)
-# Save to CSV for further use
 parsed_json = df.to_json(orient="records")  # This returns a JSON string
 parsed_json = json.loads(parsed_json)
-
-
-
-# print(parsed_json)
-#
-# if parsed_json:
-#     parsed_json = json.loads(parsed_json)
-#     print("Parsed JSON:", parsed_json)
-# else:
-#     print("Error: parsed_json is None or empty.")
 
 try:
     client = MongoClient("mongodb://localhost:27017/")  # Update with your MongoDB URI if needed
